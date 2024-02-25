@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'dalmoori';
+  font-weight: normal;
+  src: url("./Fonts/dalmoori.ttf") format("truetype");
+}
+
+body {
+  font-family: "GowunDodum-Regular";
+}

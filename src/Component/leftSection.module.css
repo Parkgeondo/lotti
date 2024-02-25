@@ -1,0 +1,32 @@
+.LeftSection{
+    background-color: black;
+    flex: 1;
+    background-image: url('../Img/background.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Size{
+    width: 400px;
+    transform: translateY(-30px);
+    -webkit-mask-image: -webkit-gradient(linear, left 30%, left 2%, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+/* .LeftSection:hover .Size{
+    animation-duration: 1.3s;
+    animation-name: slideup;
+} */
+
+@keyframes slideup {
+  from {
+    transform: translateY(2000px);
+  }
+
+  to {
+    transform: translateY(-30px);
+
+  }
+}
